@@ -23,7 +23,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "pathnexWebServer" {
-    ami           = "ami-abcd1234abcd1234"
+    ami           = "ami-abcd1234abcd12345"
     instance_type = "r5.2xlarge"
 
     tags = {
